@@ -93,7 +93,7 @@ print(
 )
 for i in range(len(array_sizes)):
     print(
-        f"{array_sizes[i]:<10}{merge_sort_times[i]:<20.6f}{insertion_sort_times[i]:<20.6f}{timsort_times[i]:<20.6f}"
+        f"{array_sizes[i]:<10}{merge_times[i]:<20.6f}{insertion_times[i]:<20.6f}{ptimsort_times[i]:<20.6f}"
     )
 # Висновки
 print("\nВисновки:")
